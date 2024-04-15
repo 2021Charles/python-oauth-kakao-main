@@ -13,6 +13,7 @@ from config import CLIENT_ID, REDIRECT_URI
 from controller import Oauth
 from model import UserModel, UserData
 
+#added 1
 
 app = Flask(__name__)
 app.config['JWT_SECRET_KEY'] = "I'M IML."
