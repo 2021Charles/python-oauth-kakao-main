@@ -22,8 +22,9 @@ app.config['JWT_TOKEN_LOCATION'] = ['cookies']
 app.config['JWT_COOKIE_SECURE'] = False
 app.config['JWT_COOKIE_CSRF_PROTECT'] = True
 app.config['JWT_ACCESS_TOKEN_EXPIRES'] = 30
-app.config['JWT_REFRESH_TOKEN_EXPIRES'] = 100
+app.config['JWT_REFRESH_TOKEN_EXPIRES'] = 200
 jwt = JWTManager(app)
+#added from test
 
 
 @app.route("/")
